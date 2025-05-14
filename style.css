@@ -1,0 +1,58 @@
+*
+{
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+section > img,p {
+    width: 300px;
+    height: 200px;
+}
+
+body > main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-left: 270px;
+    background-color: lightgray;
+}
+body > nav > img {
+    width: 70%;
+}
+body > nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    position: fixed;
+    margin-left: 10px;
+}
+#sections
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+#sections *
+{
+    margin: 11px;
+}
+section
+{
+    background-color: white;
+    margin-bottom: 10px;
+}
+p
+{
+    margin-bottom: 0;
+}
+
+main > header, main > nav
+{
+    margin-left: 40px;
+} 
+
+
+
+
